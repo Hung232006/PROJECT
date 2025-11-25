@@ -1,4 +1,4 @@
-    window.onload = function () {
+window.onload = function () {
   // Popup chào mừng
   const welcomePopup = document.getElementById("welcome-popup");
   const btnCloseWelcome = document.getElementById("close-popup");
