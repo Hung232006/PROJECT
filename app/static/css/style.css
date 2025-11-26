@@ -280,4 +280,15 @@
 }
 .btnprimary{
     background-color: #f1c40f;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.btnsecondary{
+  background-color: #d4ac0d;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
 }
