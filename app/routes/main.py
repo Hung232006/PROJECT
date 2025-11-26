@@ -2,7 +2,7 @@ from flask import Blueprint, render_template
 from flask_login import login_required, current_user
 from app.models import db, CartItem, Product
 
-main_bp = Blueprint('main', __name__)
+main_bp = Blueprint('main.bp', __name__)
 
 @main_bp.route('/')
 @login_required
